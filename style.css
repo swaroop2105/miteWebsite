@@ -1,0 +1,42 @@
+.customNav{
+    background-color: #EE741D ;
+}
+
+.customJumbotron{
+    background-color: white !important;
+    border: unset;
+    position: absolute;
+    top: 70%;
+    width: 70%;
+    z-index: +1;
+}
+.navColor{
+    background-color: white;
+}
+body{
+    background-color: #eee !important;
+}
+.customFooter{
+    background-color: #1B4E9B;
+    position: relative;
+    top: 1400px;
+}
+hr {
+    border-top: 1px dotted black;
+  }
+
+  @media screen and (max-width: 400px){
+    .customJumbotron{
+        background-color: white !important;
+        border: unset;
+        position: absolute;
+        top: 30%;
+        width: 100%;
+        z-index: +1;
+    }
+    .customFooter{
+        background-color: #1B4E9B;
+        position: relative;
+        top: 2900px;
+    }
+  }
